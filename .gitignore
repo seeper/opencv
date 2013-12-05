@@ -6,3 +6,12 @@
 .sw[a-z]
 tags
 tegra/
+
+# Build files
+build
+
+# Except static libs
+!build/3rdparty/lib/Debug/*.lib
+!build/3rdparty/lib/Release/*.lib
+!build/lib/Debug/*.lib
+!build/lib/Release/*.lib

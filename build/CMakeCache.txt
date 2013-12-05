@@ -60,7 +60,7 @@ BUILD_TIFF:BOOL=ON
 BUILD_WITH_DEBUG_INFO:BOOL=ON
 
 //Enables use of staticaly linked CRT for staticaly linked OpenCV
-BUILD_WITH_STATIC_CRT:BOOL=ON
+BUILD_WITH_STATIC_CRT:BOOL=OFF
 
 //Build zlib from source
 BUILD_ZLIB:BOOL=ON
@@ -69,7 +69,7 @@ BUILD_ZLIB:BOOL=ON
 BUILD_opencv_apps:BOOL=OFF
 
 //Include opencv_bioinspired module into the OpenCV build
-BUILD_opencv_bioinspired:BOOL=ON
+BUILD_opencv_bioinspired:BOOL=OFF
 
 //Include opencv_calib3d module into the OpenCV build
 BUILD_opencv_calib3d:BOOL=ON
